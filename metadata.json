@@ -1,0 +1,6 @@
+{
+  "name": "WebDev Hub - HTML5 Documentation",
+  "description": "Modern Dark Glassmorphism Web Development Learning Hub and interactive documentation for HTML5, CSS3, and modern JavaScript ES6+ with live code sandboxes, search engine, and full roadmap.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

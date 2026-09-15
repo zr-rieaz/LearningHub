@@ -92,17 +92,6 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Right side: Standalone Export action & PWA Install */}
         <div className="flex items-center gap-2">
           <PWAInstallButton />
-
-          <button
-            id="btn-export-single-file"
-            onClick={onExportSingleFile}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 text-xs font-medium transition cursor-pointer"
-            title="Download Standalone Single-File index.html for offline use or mobile code editor (Acode)"
-          >
-            <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-            <span className="hidden md:inline">Export Standalone HTML</span>
-            <span className="md:hidden">Export</span>
-          </button>
         </div>
       </div>
     </header>

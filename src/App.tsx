@@ -440,21 +440,30 @@ export default function App() {
       {/* Modern Glassmorphic Footer */}
       <footer className="mt-auto border-t border-white/10 bg-[#070a12]/80 backdrop-blur-md py-6 px-4 text-center text-xs text-slate-400">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-white">WebDev Hub &bull; Full-Stack Learning Hub</span>
-            <span>&copy; 2026</span>
+    
+            {/* ব্র্যান্ড নাম ও ডেভেলপার ক্রেডিট */}
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+               <span className="font-semibold text-white">WebDev Hub &bull; Full-Stack Learning Hub</span>
+               <span>&bull;</span>
+               <span>Developed by <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Rieaz</span></span>
+               <span>&bull;</span>
+               <span>&copy; 2026</span>
+            </div>
+
+            {/* টেকনোলজি সাবটপিকস লিস্ট */}
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-slate-400">
+                <span>HTML5 (20 Subtopics)</span>
+                <span>&bull;</span>
+                <span>CSS3 (27 Subtopics)</span>
+                <span>&bull;</span>
+                <span>JavaScript (25 Subtopics)</span>
+                <span>&bull;</span>
+                <span>PWA Offline Ready</span>
+             </div>
+
           </div>
-          <div className="flex items-center gap-4 text-slate-400">
-            <span>HTML5 (20 Subtopics)</span>
-            <span>&bull;</span>
-            <span>CSS3 (27 Subtopics)</span>
-            <span>&bull;</span>
-            <span>JavaScript (25 Subtopics)</span>
-            <span>&bull;</span>
-            <span>PWA Offline Ready</span>
-          </div>
-        </div>
       </footer>
+
     </div>
   );
 }
